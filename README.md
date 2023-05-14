@@ -42,30 +42,8 @@ idf.py -p PORT flash monitor
 
 See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
 
-## Example Output
-
-```
-I (3714) event: sta ip: 192.168.0.139, mask: 255.255.255.0, gw: 192.168.0.2
-I (3714) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
-I (3964) MQTT_CLIENT: Sending MQTT CONNECT message, type: 1, id: 0000
-I (4164) MQTTS_EXAMPLE: MQTT_EVENT_CONNECTED
-I (4174) MQTTS_EXAMPLE: sent publish successful, msg_id=41464
-I (4174) MQTTS_EXAMPLE: sent subscribe successful, msg_id=17886
-I (4174) MQTTS_EXAMPLE: sent subscribe successful, msg_id=42970
-I (4184) MQTTS_EXAMPLE: sent unsubscribe successful, msg_id=50241
-I (4314) MQTTS_EXAMPLE: MQTT_EVENT_PUBLISHED, msg_id=41464
-I (4484) MQTTS_EXAMPLE: MQTT_EVENT_SUBSCRIBED, msg_id=17886
-I (4484) MQTTS_EXAMPLE: sent publish successful, msg_id=0
-I (4684) MQTTS_EXAMPLE: MQTT_EVENT_SUBSCRIBED, msg_id=42970
-I (4684) MQTTS_EXAMPLE: sent publish successful, msg_id=0
-I (4884) MQTT_CLIENT: deliver_publish, message_length_read=19, message_length=19
-I (4884) MQTTS_EXAMPLE: MQTT_EVENT_DATA
-TOPIC=/topic/qos0
-DATA=data
-I (5194) MQTT_CLIENT: deliver_publish, message_length_read=19, message_length=19
-I (5194) MQTTS_EXAMPLE: MQTT_EVENT_DATA
-TOPIC=/topic/qos0
-DATA=data
-```
+## đây là demo 
+hình minh hoạ demo sử dụng port 8883 connect với broker của hivemq 
 ![8883_02](https://github.com/lightraptor2310/sussy/assets/75661466/a77440dc-a559-42f6-ac11-0b856d5cb8eb) 
+![8883_03](https://github.com/lightraptor2310/MQTT_esp32_port1883/assets/75661466/50c76b13-93c8-49f1-88c6-6c7743ef5a02)
 
